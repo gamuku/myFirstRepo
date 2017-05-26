@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testclasses]">
+  <listeners>
+    <listener class-name="customreports.CustomReporter"/>
+  </listeners>
+  <test name="firstclass(failed)">
+    <classes>
+      <class name="testclasses.FirstClass">
+        <methods>
+          <include name="doCalculate"/>
+        </methods>
+      </class> <!-- testclasses.FirstClass -->
+    </classes>
+  </test> <!-- firstclass(failed) -->
+</suite> <!-- Failed suite [testclasses] -->

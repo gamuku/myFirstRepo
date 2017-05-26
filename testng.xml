@@ -1,0 +1,12 @@
+<suite name="Learning TestNG">
+
+	<listeners>
+	<listener class-name="customreports.CustomReporter"></listener>
+	</listeners>
+
+	<suite-files>
+		<suite-file path="./Suite1.xml" />
+		<suite-file path="./Suite2.xml" />
+	</suite-files>
+
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite 1]">
+  <listeners>
+    <listener class-name="customreports.CustomReporter"/>
+  </listeners>
+  <test name="first test(failed)">
+    <classes>
+      <class name="testcases.ApplicationTest">
+        <methods>
+          <include name="doLogin"/>
+          <include name="afterSuiteTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="beforeMethods"/>
+          <include name="startTest"/>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+        </methods>
+      </class> <!-- testcases.ApplicationTest -->
+    </classes>
+  </test> <!-- first test(failed) -->
+  <test name="Third test(failed)">
+    <classes>
+      <class name="testcases.RegisterTest">
+        <methods>
+          <include name="doRegisterTest"/>
+          <include name="doSkip"/>
+          <include name="doFail"/>
+        </methods>
+      </class> <!-- testcases.RegisterTest -->
+    </classes>
+  </test> <!-- Third test(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

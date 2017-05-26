@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite 1">
+	<test name="first test">
+		<classes>
+			<class name="testcases.ApplicationTest"></class>
+		</classes>
+	</test>
+	<test name="Second test">
+		<classes>
+			<class name="testcases.LogInTest"></class>
+		</classes>
+	</test>
+	<test name="Third test">
+		<classes>
+			<class name="testcases.RegisterTest"></class>
+		</classes>
+	</test>
+</suite>

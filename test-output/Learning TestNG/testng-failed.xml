@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Learning TestNG]">
+  <test name="Application Test(failed)">
+    <classes>
+      <class name="testcases.ApplicationTest">
+        <methods>
+          <include name="doLogin"/>
+          <include name="afterSuiteTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="beforeMethods"/>
+          <include name="startTest"/>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+        </methods>
+      </class> <!-- testcases.ApplicationTest -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+  <test name="RegisterTest(failed)">
+    <classes>
+      <class name="testcases.RegisterTest">
+        <methods>
+          <include name="doRegisterTest"/>
+        </methods>
+      </class> <!-- testcases.RegisterTest -->
+    </classes>
+  </test> <!-- RegisterTest(failed) -->
+</suite> <!-- Failed suite [Learning TestNG] -->
